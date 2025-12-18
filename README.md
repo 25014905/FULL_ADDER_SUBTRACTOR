@@ -50,7 +50,7 @@ Developed by: Mirdula D   RegisterNumber:25014905
 
 
 full adder
-
+```
 module exfull (a,b,c,sum,carry);
 
 input a,b,c;
@@ -74,7 +74,7 @@ xor g1(diff,a,b);
 assign borrow =(b&c)|(~a&c)|(~a&b);
 
 endmodule 
-
+```
 *RTL Schematic**
 
 <img width="1864" height="934" alt="image" src="https://github.com/user-attachments/assets/4061ca7e-86d4-434d-8e34-3ceb3629fa09" />
