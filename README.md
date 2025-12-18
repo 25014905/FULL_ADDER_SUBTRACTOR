@@ -49,7 +49,7 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 Developed by: Mirdula D   RegisterNumber:25014905
 
 
-full adder
+
 ```
 module exfull (a,b,c,sum,carry);
 
@@ -63,7 +63,7 @@ assign carry =(a&b)|(b&c)|(c&a);
 
 endmodule
 
-full subtractor module fullsub(a,b,c,diff,borrow);
+module fullsub(a,b,c,diff,borrow);
 
 input a,b,c;
 
